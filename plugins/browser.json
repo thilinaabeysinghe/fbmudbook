@@ -66,6 +66,14 @@
         },
         "org.devgeeks.Canvas2ImagePlugin": {
             "PACKAGE_NAME": "com.abey.app"
+        },
+        "phonegap-facebook-plugin": {
+            "APP_ID": "1036988029724375",
+            "APP_NAME": "mudshare",
+            "PACKAGE_NAME": "com.abey.app"
+        },
+        "com.keith.cordova.plugin.canvascamera": {
+            "PACKAGE_NAME": "com.abey.app"
         }
     },
     "dependent_plugins": {

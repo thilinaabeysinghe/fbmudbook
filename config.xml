@@ -30,6 +30,11 @@
     <plugin name="cordova-plugin-statusbar" source="npm" spec="~2.1.2" />
     <plugin name="cordova-plugin-vibration" source="npm" spec="~2.1.0" />
     <plugin name="cordova-plugin-whitelist" source="npm" spec="~1.2.1" />
+    <gap:plugin name="com.phonegap.plugins.facebookconnect" version="<VERSION>">
+        <param name="APP_ID" value="1036988029724375" />
+        <param name="APP_NAME" value="mudshare" />
+    </gap:plugin>
+    <gap:plugin name="com.keith.cordova.plugin.canvascamera" />
     <icon src="icon.png" />
     <platform name="android">
         <icon density="ldpi" src="www/res/icon/android/drawable-ldpi-icon.png" />

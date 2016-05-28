@@ -610,6 +610,23 @@ module.exports = [
         "clobbers": [
             "window.canvas2ImagePlugin"
         ]
+    },
+    {
+        "file": "plugins/phonegap-facebook-plugin/facebookConnectPlugin.js",
+        "id": "phonegap-facebook-plugin.FacebookConnectPlugin",
+        "pluginId": "phonegap-facebook-plugin",
+        "clobbers": [
+            "facebookConnectPlugin"
+        ]
+    },
+    {
+        "file": "plugins/com.keith.cordova.plugin.canvascamera/www/CanvasCamera.js",
+        "id": "com.keith.cordova.plugin.canvascamera.CanvasCamera",
+        "pluginId": "com.keith.cordova.plugin.canvascamera",
+        "clobbers": [
+            "plugin.CanvasCamera",
+            "CanvasCamera"
+        ]
     }
 ];
 module.exports.metadata = 
@@ -636,7 +653,9 @@ module.exports.metadata =
     "cordova-plugin-statusbar": "2.1.3",
     "cordova-plugin-vibration": "2.1.1",
     "cordova-plugin-whitelist": "1.2.2",
-    "org.devgeeks.Canvas2ImagePlugin": "0.6.0"
+    "org.devgeeks.Canvas2ImagePlugin": "0.6.0",
+    "phonegap-facebook-plugin": "0.12.0",
+    "com.keith.cordova.plugin.canvascamera": "1.0.0dev"
 }
 // BOTTOM OF METADATA
 });
